@@ -505,7 +505,7 @@ void exercicio19() {
 
     enumSexo = (sexo = 'M') ? 0 : (sexo = 'F') ? 1 : 2;
 
-    cout << "\n--- Exercício 18 ---" << endl;
+    cout << "\n--- Exercício 19 ---" << endl;
     cout << "Qual seu sexo?";
     cin >> sexo;
     cout << "Digite sua altura em metros: ";
@@ -527,6 +527,7 @@ void exercicio19() {
 void exercicio20() {
     int idade;
 
+    cout << "\n--- Exercício 20 ---" << endl;
     cout << "Digite a idade do nadador: ";
     cin >> idade;
 
@@ -551,6 +552,7 @@ void exercicio21() {
     int codigoOrigem;
     string procedencia;
 
+    cout << "\n--- Exercício 21 ---" << endl;
     cout << "Digite o preco do produto: ";
     cin >> preco;
     cout << "Digite o codigo de origem do produto: ";
@@ -587,6 +589,7 @@ void exercicio22() {
     float peso;
     int grupoDeRisco = 0;
 
+    cout << "\n--- Exercício 22 ---" << endl;
     cout << "Digite sua idade: ";
     cin >> idade;
 
@@ -631,6 +634,7 @@ void exercicio23() {
     int quantidade;
     double precoUnitario, precoTotalNota, valorDesconto, precoFinalNota;
 
+    cout << "\n--- Exercício 23 ---" << endl;
     cout << "Digite o codigo do produto: ";
     cin >> codigo;
     cout << "Digite a quantidade comprada: ";
@@ -672,6 +676,7 @@ void exercicio24() {
     int categoria;
     char situacao;
 
+    cout << "\n--- Exercício 24 ---" << endl;
     cout << "Digite o preco do produto: ";
     cin >> preco;
     cout << "Digite a categoria (1 a 3): ";
@@ -737,6 +742,7 @@ void exercicio25() {
     double horasExtras;
     double horasFalta;
 
+    cout << "\n--- Exercício 25 ---" << endl;
     cout << "Digite o numero de horas extras trabalhadas: ";
     cin >> horasExtras;
     cout << "Digite o numero de horas de falta: ";
